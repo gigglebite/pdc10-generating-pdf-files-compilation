@@ -1,7 +1,8 @@
 <?php
 /* a php program that will generate a pdf file 
 that displays your complete name, program, email address, and student number */
-require('fpdf.php');
+require 'vendor/autoload.php';
+use App\FPDF;
 
 $pdf = new FPDF();
 $pdf->AddPage();

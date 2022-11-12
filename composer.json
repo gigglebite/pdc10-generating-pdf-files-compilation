@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "Models/",
+            "Config\\": "Config/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Aleeya Jenzen M. Candelaria",
+            "email": "candelaria.aleeyajenzen@auf.edu.ph"
+        }
+    ]
+}
