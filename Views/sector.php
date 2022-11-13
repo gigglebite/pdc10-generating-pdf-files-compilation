@@ -1,5 +1,5 @@
-<?php
-include 'vendor/autoload.php';
+<?php 
+require '../vendor/autoload.php';
 use App\FPDF;
 
 class PDF_Sector extends FPDF

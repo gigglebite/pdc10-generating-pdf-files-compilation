@@ -1,5 +1,4 @@
-<?php
-require 'vendor/autoload.php';
+<?php require '../vendor/autoload.php';
 use App\FPDF;
 $pdf = new FPDF();
 $pdf->AddFont('Chapaza','','Chapaza.php');

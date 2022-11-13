@@ -1,4 +1,4 @@
-<?php require 'vendor/autoload.php';
+<?php require '../vendor/autoload.php';
 use App\FPDF;
 
 class PDF extends FPDF
@@ -75,9 +75,9 @@ $pdf = new PDF();
 $title = '1989 Horselords';
 $pdf->SetTitle($title);
 $pdf->SetAuthor('David Cook');
-$pdf->PrintChapter(1,'Quaraband','chap1.txt');
-$pdf->PrintChapter(2,'Mother Bayalun','chap2.txt');
-$pdf->PrintChapter(2,'Lightning','chap3.txt');
+$pdf->PrintChapter(1,'Quaraband','../resources/chap1.txt');
+$pdf->PrintChapter(2,'Mother Bayalun','../resources/chap2.txt');
+$pdf->PrintChapter(2,'Lightning','../resources/chap3.txt');
 $pdf->Output();
 
 ?>

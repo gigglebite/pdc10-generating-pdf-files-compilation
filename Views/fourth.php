@@ -1,4 +1,4 @@
-<?php require 'vendor/autoload.php';
+<?php require '../vendor/autoload.php';
 use App\FPDF;
 
 class PDF extends Fpdf
@@ -26,7 +26,7 @@ class PDF extends Fpdf
 }
 
 // (A) OPEN CSV FILE
-$stream = fopen("worldpopulation.csv", "r");
+$stream = fopen("../Resources/worldpopulation.csv", "r");
 
 // (B) EXTRACT ROWS & COLS
 $index = 0;

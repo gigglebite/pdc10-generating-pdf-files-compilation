@@ -1,5 +1,4 @@
-<?php
-require 'vendor/autoload.php';
+<?php require '../vendor/autoload.php';
 use App\FPDF;
 
 class PDF extends FPDF
@@ -8,7 +7,7 @@ class PDF extends FPDF
 function Header()
 {
     // Logo
-    $this->Image('auf-logo.png',40,6,15, 25);
+    $this->Image('../resources/auf-logo.png',40,6,15, 25);
     // Arial bold 15
     $this->SetFont('Arial','B',15);
     // Move to the right

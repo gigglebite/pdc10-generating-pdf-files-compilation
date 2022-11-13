@@ -1,7 +1,5 @@
-<?php
-require 'vendor/autoload.php';
+<?php require '../vendor/autoload.php';
 require('sector.php');
-
 class PDF_Diag extends PDF_Sector {
     var $legends;
     var $wLegend;
